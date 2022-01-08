@@ -1,27 +1,87 @@
 #classic {
-
+padding: 1em;
+font-weight: 500;
+text-align: justify;
 }
 
 #modern {
-
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+background-color: #FED700;
+padding: 1em;
+text-align: center;
+box-shadow: 5px 5px 5px lightgray;
 }
 
 #impact {
-
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+background-color: #90ee90;
+border: double 1em black;
+padding: 1em;
+text-align: center;
+box-shadow: 5px 5px 5px lightgray;
 }
 
 #elise {
-
+font-family: Lucida Calligraphy;
+font-weight: 500;
+background-color: #fffaf0;
+padding: 1em;
+text-align: center;
+border: groove #faebd7 5px;
+box-shadow: 5px 5px 5px lightgray;
 }
 
 #one, #two  {
-
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+text-align: center;
+display: inline-block;
+margin-top: 90px;
+margin-bottom: auto;
+margin-left: 40px;
+margin-right: auto;
+padding: 1em;
+background-color: #7efed4;
+border: ridge #34ced1 7px ;
+box-shadow: 5px 5px 5px lightgray;
 }
 
 #gaudi {
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #fba07a;
+font-weight: 500;
+text-align: center;
+padding: 1.5em 1em;
+border-radius: 15px 50px; 
+box-shadow: 2px 2px 2px gray;
 }
+form {
+    border:black solid 1px;
+    text-align: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
-
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label {
+    color: purple;
+  }
 
 
